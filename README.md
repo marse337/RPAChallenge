@@ -10,7 +10,7 @@ This project uses OpenRPA and Google Sheets to automate filling out the form on 
 
 - [OpenRPA](https://openrpa.io/) - open source RPA tool
 - Google Sheets - for generating test data
-- Google Chrome - browser automation using OpenRPA
+- [RPA Challenge website](https://rpachallenge.com/) 
 
 ## Steps
 
