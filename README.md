@@ -4,24 +4,26 @@ Here is a README.md file with details on using OpenRPA and Google Sheets to comp
 
 ## Overview
 
-This project uses OpenRPA and Google Sheets to automate filling out the form on the [RPA Challenge](https://rpachallenge.com/) website.
+This project uses OpenRPA and Google Sheets to automate filling out the form on the [RPA Challenge](https://rpachallenge.com/) website. Please visit [OpenRPA Github](https://github.com/open-rpa/openrpa) for more information
 
 ### Tools Used
 
-- [OpenRPA](https://openrpa.io/) - open source RPA tool
+- [OpenRPA](https://github.com/open-rpa/openrpa/releases/latest/download/OpenRPA.msi) - open source RPA tool
 - Google Sheets - for generating test data
 - [RPA Challenge website](https://rpachallenge.com/) 
 
-## Steps
+## Before Starting - Setup
 
 1. Import the OpenRPA flow
 2. Generate test data in Google Sheets
    - Columns for first name, last name, company, role, address, email, phone
-3. Use OpenRPA to:
-   - Launch Chrome and navigate to the RPA Challenge site
+   ## Steps Once Setup is complete
+Press Start in OpenRPA 
+OpenRpa will
    - Extract each column of data from Sheets and convert to a CSV string
+   - Navigate to the RPA Challenge site
    - Insert a JavaScript snippet into the console to fill out the form
-   - Loop through the data to submit multiple entries
+   - Update the google sheet when complete
 
 ## Code
 
@@ -61,4 +63,3 @@ for(let i=0;i<firstName.length;i++) {
 - Automated form submission on the RPA Challenge site using realistic test data
 - Demonstrated RPA automation with OpenRPA and Google Sheets
 
-Let me know if you would like me to clarify or expand on any part of this README!
